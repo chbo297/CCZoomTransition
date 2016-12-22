@@ -1,6 +1,6 @@
 # CCZoomTransition
 'CCZoomTransition' is zoom transition for IOS ViewController，Looks like open the APP system effect.  
-Only requires one line of code  
+Only requires one line of code  
 ![pictap](https://github.com/chbo297/CCZoomTransition/blob/master/CCZoomTransitionDemo/demopic01.gif)  
 
 panGesture swipBack:  
