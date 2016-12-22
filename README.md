@@ -29,4 +29,4 @@ UIViewController *viewController = [UIViewController new];
 
 ```
 
-######The "targetView" is view which tap in presentingView, or whose you wish zoom.
+######The "targetView" is view which tap in presentingView, or whose you wish being zoom.
