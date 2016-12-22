@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9524F9041E0B82F400967A71 /* CCSwipBackPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */; };
+		9524F9051E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */; };
+		9524F9061E0B82F400967A71 /* CCZoomTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */; };
+		9524F9071E0B82F400967A71 /* CCZoomTransitionVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */; };
+		95CFFF071E0B7D55005DBB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF061E0B7D55005DBB3D /* AppDelegate.swift */; };
+		95CFFF0C1E0B7D55005DBB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF0A1E0B7D55005DBB3D /* Main.storyboard */; };
+		95CFFF0E1E0B7D55005DBB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF0D1E0B7D55005DBB3D /* Assets.xcassets */; };
+		95CFFF111E0B7D55005DBB3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF0F1E0B7D55005DBB3D /* LaunchScreen.storyboard */; };
+		95CFFF1B1E0B7E06005DBB3D /* CCCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF181E0B7E06005DBB3D /* CCCollectionViewController.swift */; };
+		95CFFF1C1E0B7E06005DBB3D /* CCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF191E0B7E06005DBB3D /* CCCollectionViewCell.swift */; };
+		95CFFF1D1E0B7E06005DBB3D /* CCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF1A1E0B7E06005DBB3D /* CCDetailViewController.swift */; };
+		95CFFF1F1E0B7E9A005DBB3D /* CCZoomTransition in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF1E1E0B7E9A005DBB3D /* CCZoomTransition */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSwipBackPresentationController.swift; sourceTree = "<group>"; };
+		9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitioner.swift; sourceTree = "<group>"; };
+		9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitionVCExtension.swift; sourceTree = "<group>"; };
+		95CFFF031E0B7D55005DBB3D /* CCZoomTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCZoomTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CFFF061E0B7D55005DBB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95CFFF0B1E0B7D55005DBB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95CFFF0D1E0B7D55005DBB3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95CFFF101E0B7D55005DBB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95CFFF121E0B7D55005DBB3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CFFF181E0B7E06005DBB3D /* CCCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCollectionViewController.swift; sourceTree = "<group>"; };
+		95CFFF191E0B7E06005DBB3D /* CCCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCollectionViewCell.swift; sourceTree = "<group>"; };
+		95CFFF1A1E0B7E06005DBB3D /* CCDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCDetailViewController.swift; sourceTree = "<group>"; };
+		95CFFF1E1E0B7E9A005DBB3D /* CCZoomTransition */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CCZoomTransition; path = /Users/chengbo/XcodeDocuments/ccrepository/CCZoomTransitionDemo/CCZoomTransitionDemo/CCZoomTransition; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CFFF001E0B7D55005DBB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9524F8FF1E0B82F300967A71 /* CCZoomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */,
+				9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */,
+				9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */,
+				9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */,
+			);
+			path = CCZoomTransition;
+			sourceTree = "<group>";
+		};
+		95CFFEFA1E0B7D55005DBB3D = {
+			isa = PBXGroup;
+			children = (
+				95CFFF051E0B7D55005DBB3D /* CCZoomTransitionDemo */,
+				95CFFF041E0B7D55005DBB3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CFFF041E0B7D55005DBB3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CFFF031E0B7D55005DBB3D /* CCZoomTransitionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CFFF051E0B7D55005DBB3D /* CCZoomTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9524F8FF1E0B82F300967A71 /* CCZoomTransition */,
+				95CFFF061E0B7D55005DBB3D /* AppDelegate.swift */,
+				95CFFF181E0B7E06005DBB3D /* CCCollectionViewController.swift */,
+				95CFFF191E0B7E06005DBB3D /* CCCollectionViewCell.swift */,
+				95CFFF1A1E0B7E06005DBB3D /* CCDetailViewController.swift */,
+				95CFFF0A1E0B7D55005DBB3D /* Main.storyboard */,
+				95CFFF0D1E0B7D55005DBB3D /* Assets.xcassets */,
+				95CFFF0F1E0B7D55005DBB3D /* LaunchScreen.storyboard */,
+				95CFFF121E0B7D55005DBB3D /* Info.plist */,
+			);
+			path = CCZoomTransitionDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CFFF021E0B7D55005DBB3D /* CCZoomTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CFFF151E0B7D55005DBB3D /* Build configuration list for PBXNativeTarget "CCZoomTransitionDemo" */;
+			buildPhases = (
+				95CFFEFF1E0B7D55005DBB3D /* Sources */,
+				95CFFF001E0B7D55005DBB3D /* Frameworks */,
+				95CFFF011E0B7D55005DBB3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCZoomTransitionDemo;
+			productName = CCZoomTransitionDemo;
+			productReference = 95CFFF031E0B7D55005DBB3D /* CCZoomTransitionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CFFEFB1E0B7D55005DBB3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = bo;
+				TargetAttributes = {
+					95CFFF021E0B7D55005DBB3D = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95CFFEFE1E0B7D55005DBB3D /* Build configuration list for PBXProject "CCZoomTransitionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95CFFEFA1E0B7D55005DBB3D;
+			productRefGroup = 95CFFF041E0B7D55005DBB3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CFFF021E0B7D55005DBB3D /* CCZoomTransitionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CFFF011E0B7D55005DBB3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CFFF111E0B7D55005DBB3D /* LaunchScreen.storyboard in Resources */,
+				95CFFF0E1E0B7D55005DBB3D /* Assets.xcassets in Resources */,
+				95CFFF1F1E0B7E9A005DBB3D /* CCZoomTransition in Resources */,
+				95CFFF0C1E0B7D55005DBB3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CFFEFF1E0B7D55005DBB3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9524F9071E0B82F400967A71 /* CCZoomTransitionVCExtension.swift in Sources */,
+				95CFFF1B1E0B7E06005DBB3D /* CCCollectionViewController.swift in Sources */,
+				95CFFF1C1E0B7E06005DBB3D /* CCCollectionViewCell.swift in Sources */,
+				9524F9061E0B82F400967A71 /* CCZoomTransitioner.swift in Sources */,
+				95CFFF071E0B7D55005DBB3D /* AppDelegate.swift in Sources */,
+				9524F9051E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift in Sources */,
+				9524F9041E0B82F400967A71 /* CCSwipBackPresentationController.swift in Sources */,
+				95CFFF1D1E0B7E06005DBB3D /* CCDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95CFFF0A1E0B7D55005DBB3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CFFF0B1E0B7D55005DBB3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95CFFF0F1E0B7D55005DBB3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95CFFF101E0B7D55005DBB3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95CFFF131E0B7D55005DBB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95CFFF141E0B7D55005DBB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CFFF161E0B7D55005DBB3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCZoomTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCZoomTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		95CFFF171E0B7D55005DBB3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CCZoomTransitionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CC.CCZoomTransitionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CFFEFE1E0B7D55005DBB3D /* Build configuration list for PBXProject "CCZoomTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CFFF131E0B7D55005DBB3D /* Debug */,
+				95CFFF141E0B7D55005DBB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CFFF151E0B7D55005DBB3D /* Build configuration list for PBXNativeTarget "CCZoomTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CFFF161E0B7D55005DBB3D /* Debug */,
+				95CFFF171E0B7D55005DBB3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CFFEFB1E0B7D55005DBB3D /* Project object */;
+}
