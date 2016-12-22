@@ -14,7 +14,7 @@ class CCDetailViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = UIColor.white
+        self.view.backgroundColor = UIColor.init(displayP3Red: 0.8, green: 0.68, blue: 0.68, alpha: 1)
         
         let label = UILabel.init()
         
