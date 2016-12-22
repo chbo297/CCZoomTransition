@@ -8,6 +8,8 @@
 
 import UIKit
 
+//provider pan swipbackable interactionTransitioning
+
 class CCSwipBackPresentationController: UIPresentationController {
     private(set) var swipBackTransitioning: UIPercentDrivenInteractiveTransition? = nil
     

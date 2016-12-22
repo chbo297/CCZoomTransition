@@ -10,6 +10,8 @@ import UIKit
 
 extension UIViewController {
     
+    //set the  presented viewController,
+    //originalView: Which being tap in presenting view
     func setZoomTransition(originalView : UIView) {
         self.modalPresentationStyle = .custom
         self.modalPresentationCapturesStatusBarAppearance = true

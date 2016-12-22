@@ -8,11 +8,11 @@
 
 import UIKit
 
-//动画效果类似于IOS系统打开App的缩放样式
+//AnimatedTransitioning,Looks like to open the APP system effect
 
 class CCZoomAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
     
-    //fromeVC中被点击的View（相当于系统打开APP时的桌面上被点击的Icon），transitioning需要获取这个View来完成动画效果
+    //which view being touch in fromeVC， Need to get this view to running the animation
     var transitOriginalView : UIView? = nil
     
     var isPresentation : Bool = true
@@ -60,14 +60,14 @@ class CCZoomAnimatedTransitioning: NSObject, UIViewControllerAnimatedTransitioni
         
         toView.frame = toFrame
         
-        //获取presentingVC的original View
+        //Obtain original view which in presentingView
         let transitview = (self.transitOriginalView ?? (self.isPresentation ? fromView : toView))!
         
         let originrect = containerView.convert(transitview.frame, from: transitview.superview)
         
         let shadow = UIImageView();
         
-        //获取View的截图，使用该图形参与动画
+        //Generate the image for original view，used in animation
         var transitimage : UIImage? = nil;
         if transitview is UIImageView {
             let imagev = transitview as! UIImageView

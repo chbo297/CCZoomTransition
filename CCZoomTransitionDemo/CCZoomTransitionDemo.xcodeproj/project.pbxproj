@@ -52,10 +52,10 @@
 		9524F8FF1E0B82F300967A71 /* CCZoomTransition */ = {
 			isa = PBXGroup;
 			children = (
+				9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */,
 				9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */,
 				9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */,
 				9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */,
-				9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */,
 			);
 			path = CCZoomTransition;
 			sourceTree = "<group>";
