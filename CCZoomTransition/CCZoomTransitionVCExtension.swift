@@ -12,7 +12,7 @@ extension UIViewController {
     
     //set the  presented viewController,
     //originalView: Which being tap in presenting view
-    func setZoomTransition(originalView : UIView) {
+    func cc_setZoomTransition(originalView : UIView) {
         self.modalPresentationStyle = .custom
         self.modalPresentationCapturesStatusBarAppearance = true
         let transitioner = CCZoomTransitioner()
@@ -20,6 +20,21 @@ extension UIViewController {
         self.cc_transitioner = transitioner
         self.transitioningDelegate = self.cc_transitioner
     }
+    
+    var cc_swipeBackDisabled : Bool {
+        get {
+            if let trans = self.cc_transitioner {
+                return trans.swipeBackDisabled
+            } else {
+                return false
+            }
+        }
+        
+        set {
+            self.cc_transitioner?.swipeBackDisabled = newValue
+        }
+    }
+    
     
     private struct AssociatedKey {
         static var ZoomTransitioner = "cc_zoomTransitioner"

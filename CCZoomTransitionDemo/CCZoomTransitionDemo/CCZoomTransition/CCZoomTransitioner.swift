@@ -14,6 +14,8 @@ class CCZoomTransitioner : NSObject, UIViewControllerTransitioningDelegate {
     
     var presentationController : CCSwipBackPresentationController? = nil
     
+    var swipeBackDisabled : Bool = false
+    
     
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         let trans = CCZoomAnimatedTransitioning()

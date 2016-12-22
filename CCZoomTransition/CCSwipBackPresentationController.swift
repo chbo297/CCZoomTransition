@@ -17,7 +17,8 @@ class CCSwipBackPresentationController: UIPresentationController {
         if let container = panGes.view {
             switch panGes.state {
             case .began:
-                if (nil == self.swipBackTransitioning &&
+                if (!self.presentedViewController.cc_swipeBackDisabled &&
+                    nil == self.swipBackTransitioning &&
                     !self.presentingViewController.isBeingPresented &&
                     !self.presentedViewController.isBeingDismissed) {
                     self.swipBackTransitioning = UIPercentDrivenInteractiveTransition()

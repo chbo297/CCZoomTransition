@@ -41,7 +41,7 @@ class CCDetailViewController: UIViewController {
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
         get {
-            return .lightContent
+            return .default
         }
     }
     

@@ -24,15 +24,8 @@ class CCCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.backgroundColor = UIColor.white
-        self.commonInit()
-    }
-    
-    func commonInit() {
         imageView.frame = self.contentView.bounds
         self.contentView.addSubview(imageView)
         imageView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
-    
-    
 }

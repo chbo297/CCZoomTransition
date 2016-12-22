@@ -51,12 +51,19 @@ class CCCollectionViewController: UICollectionViewController , UICollectionViewD
         let vc = CCDetailViewController()
         
         if let imageCell = collectionView.cellForItem(at: indexPath) as? CCCollectionViewCell {
-            vc.setZoomTransition(originalView: imageCell.imageView)
+            vc.cc_setZoomTransition(originalView: imageCell.imageView)
+//            vc.cc_swipeBackDisabled = true
         }
         
         self.present(vc, animated: true, completion: nil)
         
         return false
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        get {
+            return .lightContent
+        }
     }
  
 

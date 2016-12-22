@@ -124,6 +124,7 @@
 				TargetAttributes = {
 					95CFFF021E0B7D55005DBB3D = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8ED2N2GBR7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -295,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ED2N2GBR7;
 				INFOPLIST_FILE = CCZoomTransitionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCZoomTransitionDemo;
@@ -307,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ED2N2GBR7;
 				INFOPLIST_FILE = CCZoomTransitionDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CC.CCZoomTransitionDemo;
