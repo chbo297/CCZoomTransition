@@ -1,5 +1,6 @@
 language: objective-c
 
-xcode_project: CCZoomTransitionDemo/CCZoomTransitionDemo.xcodeproj
+install:
+- cd CCZoomTransitionDemo
 
-xcode_scheme: CCZoomTransitionDemo
+script: xctool -project CCZoomTransitionDemo.xcodeproj -scheme 'CCZoomTransitionDemo' -configuration Release -sdk iphonesimulator8.0 -arch i386 build
