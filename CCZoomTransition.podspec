@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CCZoomTransition"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Zoom transition effect present viewController"
   s.description  = <<-DESC
 			zoom transition effect present viewController,likes apple open App effect
