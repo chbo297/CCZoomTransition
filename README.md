@@ -3,15 +3,18 @@
 
 
 'CCZoomTransition' is zoom transition for IOS ViewController.  
-Only requires one line of code  
-![pictap](https://github.com/chbo297/CCZoomTransition/blob/master/CCZoomTransitionDemo/demopic01.gif)  
+Only requires one line of code  
+  ViewController present的转场特效，只需要一行代码，就可以的到一个类似于系统开启APP的打开关闭效果的present特效啦。  
+  
+  
+![pictap](https://github.com/chbo297/CCZoomTransition/blob/master/CCZoomTransitionDemo/demopic01.gif)  
 
 panGesture swipBack:  
 ![picpan](https://github.com/chbo297/CCZoomTransition/blob/master/CCZoomTransitionDemo/demopic02.gif)  
 
 #Getting Started
 
-##Into Swift
+##In Swift
   
 ```
 
@@ -20,7 +23,7 @@ viewController.cc_setZoomTransition(originalView: targetView)
 self.present(viewController, animated: true, completion: nil)
 
 ```
-##Into Objective-C
+##In Objective-C
 
 ```
 
