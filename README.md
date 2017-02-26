@@ -1,8 +1,8 @@
 # CCZoomTransition  
 [![Build Status](https://travis-ci.org/chbo297/CCZoomTransition.svg?branch=master)](https://travis-ci.org/chbo297/CCZoomTransition)
 [![Version](https://img.shields.io/cocoapods/v/CCZoomTransition.svg?style=flat)](http://cocoapods.org/pods/CCZoomTransition)
-[![License](https://img.shields.io/cocoapods/l/CCZoomTransition.svg?style=flat)]()
-[![Platform](https://img.shields.io/cocoapods/p/CCZoomTransition.svg?style=flat)]()  
+[![License](https://img.shields.io/cocoapods/l/CCZoomTransition.svg?style=flat)](http://cocoapods.org/pods/CCZoomTransition)
+[![Platform](https://img.shields.io/cocoapods/p/CCZoomTransition.svg?style=flat)](http://cocoapods.org/pods/CCZoomTransition)  
   
   
 'CCZoomTransition' is zoom transition for IOS ViewController.  
