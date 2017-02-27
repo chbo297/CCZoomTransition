@@ -18,7 +18,6 @@
 		95CFFF1B1E0B7E06005DBB3D /* CCCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF181E0B7E06005DBB3D /* CCCollectionViewController.swift */; };
 		95CFFF1C1E0B7E06005DBB3D /* CCCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF191E0B7E06005DBB3D /* CCCollectionViewCell.swift */; };
 		95CFFF1D1E0B7E06005DBB3D /* CCDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF1A1E0B7E06005DBB3D /* CCDetailViewController.swift */; };
-		95CFFF1F1E0B7E9A005DBB3D /* CCZoomTransition in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF1E1E0B7E9A005DBB3D /* CCZoomTransition */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +34,6 @@
 		95CFFF181E0B7E06005DBB3D /* CCCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCollectionViewController.swift; sourceTree = "<group>"; };
 		95CFFF191E0B7E06005DBB3D /* CCCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCCollectionViewCell.swift; sourceTree = "<group>"; };
 		95CFFF1A1E0B7E06005DBB3D /* CCDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCDetailViewController.swift; sourceTree = "<group>"; };
-		95CFFF1E1E0B7E9A005DBB3D /* CCZoomTransition */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CCZoomTransition; path = /Users/chengbo/XcodeDocuments/ccrepository/CCZoomTransitionDemo/CCZoomTransitionDemo/CCZoomTransition; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +152,6 @@
 			files = (
 				95CFFF111E0B7D55005DBB3D /* LaunchScreen.storyboard in Resources */,
 				95CFFF0E1E0B7D55005DBB3D /* Assets.xcassets in Resources */,
-				95CFFF1F1E0B7E9A005DBB3D /* CCZoomTransition in Resources */,
 				95CFFF0C1E0B7D55005DBB3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
