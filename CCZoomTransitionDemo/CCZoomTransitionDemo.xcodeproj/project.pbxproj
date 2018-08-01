@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9524F9041E0B82F400967A71 /* CCSwipBackPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */; };
-		9524F9051E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */; };
-		9524F9061E0B82F400967A71 /* CCZoomTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */; };
-		9524F9071E0B82F400967A71 /* CCZoomTransitionVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */; };
+		5F1DD6902111B89000484640 /* CCZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1DD68C2111B89000484640 /* CCZoomAnimatedTransitioning.swift */; };
+		5F1DD6912111B89000484640 /* CCZoomTransitionVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1DD68D2111B89000484640 /* CCZoomTransitionVCExtension.swift */; };
+		5F1DD6922111B89000484640 /* CCSwipBackPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1DD68E2111B89000484640 /* CCSwipBackPresentationController.swift */; };
+		5F1DD6932111B89000484640 /* CCZoomTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1DD68F2111B89000484640 /* CCZoomTransitioner.swift */; };
 		95CFFF071E0B7D55005DBB3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CFFF061E0B7D55005DBB3D /* AppDelegate.swift */; };
 		95CFFF0C1E0B7D55005DBB3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF0A1E0B7D55005DBB3D /* Main.storyboard */; };
 		95CFFF0E1E0B7D55005DBB3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CFFF0D1E0B7D55005DBB3D /* Assets.xcassets */; };
@@ -21,10 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSwipBackPresentationController.swift; sourceTree = "<group>"; };
-		9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
-		9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitioner.swift; sourceTree = "<group>"; };
-		9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitionVCExtension.swift; sourceTree = "<group>"; };
+		5F1DD68C2111B89000484640 /* CCZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		5F1DD68D2111B89000484640 /* CCZoomTransitionVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitionVCExtension.swift; sourceTree = "<group>"; };
+		5F1DD68E2111B89000484640 /* CCSwipBackPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSwipBackPresentationController.swift; sourceTree = "<group>"; };
+		5F1DD68F2111B89000484640 /* CCZoomTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCZoomTransitioner.swift; sourceTree = "<group>"; };
 		95CFFF031E0B7D55005DBB3D /* CCZoomTransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCZoomTransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CFFF061E0B7D55005DBB3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95CFFF0B1E0B7D55005DBB3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,15 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9524F8FF1E0B82F300967A71 /* CCZoomTransition */ = {
+		5F1DD68B2111B89000484640 /* CCZoomTransition */ = {
 			isa = PBXGroup;
 			children = (
-				9524F9031E0B82F400967A71 /* CCZoomTransitionVCExtension.swift */,
-				9524F9001E0B82F400967A71 /* CCSwipBackPresentationController.swift */,
-				9524F9011E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift */,
-				9524F9021E0B82F400967A71 /* CCZoomTransitioner.swift */,
+				5F1DD68C2111B89000484640 /* CCZoomAnimatedTransitioning.swift */,
+				5F1DD68D2111B89000484640 /* CCZoomTransitionVCExtension.swift */,
+				5F1DD68E2111B89000484640 /* CCSwipBackPresentationController.swift */,
+				5F1DD68F2111B89000484640 /* CCZoomTransitioner.swift */,
 			);
-			path = CCZoomTransition;
+			name = CCZoomTransition;
+			path = ../../CCZoomTransition;
 			sourceTree = "<group>";
 		};
 		95CFFEFA1E0B7D55005DBB3D = {
@@ -77,7 +78,7 @@
 		95CFFF051E0B7D55005DBB3D /* CCZoomTransitionDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9524F8FF1E0B82F300967A71 /* CCZoomTransition */,
+				5F1DD68B2111B89000484640 /* CCZoomTransition */,
 				95CFFF061E0B7D55005DBB3D /* AppDelegate.swift */,
 				95CFFF181E0B7E06005DBB3D /* CCCollectionViewController.swift */,
 				95CFFF191E0B7E06005DBB3D /* CCCollectionViewCell.swift */,
@@ -163,13 +164,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9524F9071E0B82F400967A71 /* CCZoomTransitionVCExtension.swift in Sources */,
+				5F1DD6932111B89000484640 /* CCZoomTransitioner.swift in Sources */,
+				5F1DD6912111B89000484640 /* CCZoomTransitionVCExtension.swift in Sources */,
 				95CFFF1B1E0B7E06005DBB3D /* CCCollectionViewController.swift in Sources */,
 				95CFFF1C1E0B7E06005DBB3D /* CCCollectionViewCell.swift in Sources */,
-				9524F9061E0B82F400967A71 /* CCZoomTransitioner.swift in Sources */,
+				5F1DD6922111B89000484640 /* CCSwipBackPresentationController.swift in Sources */,
 				95CFFF071E0B7D55005DBB3D /* AppDelegate.swift in Sources */,
-				9524F9051E0B82F400967A71 /* CCZoomAnimatedTransitioning.swift in Sources */,
-				9524F9041E0B82F400967A71 /* CCSwipBackPresentationController.swift in Sources */,
+				5F1DD6902111B89000484640 /* CCZoomAnimatedTransitioning.swift in Sources */,
 				95CFFF1D1E0B7E06005DBB3D /* CCDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

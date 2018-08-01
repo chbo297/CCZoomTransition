@@ -12,7 +12,7 @@ class CCZoomTransitioner : NSObject, UIViewControllerTransitioningDelegate {
     
     var transitOriginalView : UIView? = nil
     
-    var presentationController : CCSwipBackPresentationController? = nil
+    weak var presentationController : CCSwipBackPresentationController? = nil
     
     var swipeBackDisabled : Bool = false
     
