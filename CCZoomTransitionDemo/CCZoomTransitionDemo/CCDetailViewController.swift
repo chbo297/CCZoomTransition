@@ -36,7 +36,6 @@ class CCDetailViewController: UIViewController {
         
         closebutton.addTarget(self, action: #selector(self.tapClose(sender:)), for: .touchUpInside)
         
-        
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -45,7 +44,7 @@ class CCDetailViewController: UIViewController {
         }
     }
     
-    func tapClose(sender : UIButton) {
+    @objc func tapClose(sender : UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
 
