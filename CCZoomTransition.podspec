@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
+  s.swift_version = "4.1"
+
   s.source       = { :git => "https://github.com/chbo297/CCZoomTransition.git", :tag => s.version }
 
   s.source_files  = "CCZoomTransition", "CCZoomTransition/*.{swift}"
