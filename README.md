@@ -15,20 +15,20 @@ Only requires one line of code  
 panGesture swipBack:  
 ![picpan](https://github.com/chbo297/CCZoomTransition/blob/master/CCZoomTransitionDemo/demopic02.gif)  
 
-#Getting Started
+# Getting Started
 
-##In Swift
+## In Swift
   
-```
+```swift
 
 let viewController = UIViewController()
 viewController.cc_setZoomTransition(originalView: targetView)
 self.present(viewController, animated: true, completion: nil)
 
 ```
-##In Objective-C
+## In Objective-C
 
-```
+```objc
 
 #import "ProductModuleName-Swift.h"
 
@@ -38,4 +38,4 @@ UIViewController *viewController = [UIViewController new];
 
 ```
 
-######The "targetView" is view which tap in presentingView, or whose you wish being zoom.
+###### The "targetView" is view which tap in presentingView, or whose you wish being zoom.
