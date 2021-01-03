@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "0.2.1"
   s.summary      = "Deprecated, Use BOTransition (https://cocoapods.org/pods/BOTransition) instead")"
   s.description  = <<-DESC
-			更新了更强大、全面的BOTransition，该库不再维护，请使用BOTransition (https://cocoapods.org/pods/BOTransition)
+			新建了更强大、更全面的BOTransition，该库不再维护，请使用BOTransition (https://cocoapods.org/pods/BOTransition)
                    DESC
 
   s.homepage     = "https://github.com/chbo297/CCZoomTransition"
