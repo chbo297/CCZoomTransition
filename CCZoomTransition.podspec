@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "CCZoomTransition"
-  s.version      = "0.1.2"
-  s.summary      = "Zoom transition effect present viewController"
+  s.version      = "0.2.1"
+  s.summary      = "Deprecated, Use BOTransition (https://cocoapods.org/pods/BOTransition) instead")"
   s.description  = <<-DESC
-			zoom transition effect present viewController,likes apple open App effect
+			更新了更强大、全面的BOTransition，该库不再维护，请使用BOTransition (https://cocoapods.org/pods/BOTransition)
                    DESC
 
   s.homepage     = "https://github.com/chbo297/CCZoomTransition"

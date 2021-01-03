@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS, introduced: 6.0, deprecated: 7.0, message: "Use BOTransition (https://cocoapods.org/pods/BOTransition) instead")
 class CCZoomTransitioner : NSObject, UIViewControllerTransitioningDelegate {
     
     convenience init(vc : UIViewController) {
