@@ -1,4 +1,4 @@
-# CCZoomTransition  
+# CCZoomTransition  【已废弃，请使用BOTransition：https://github.com/chbo297/BOTransition】
 [![Version](https://img.shields.io/cocoapods/v/CCZoomTransition.svg?style=flat)](http://cocoapods.org/pods/CCZoomTransition)
 ![License](https://img.shields.io/cocoapods/l/CCZoomTransition.svg?style=flat)
 ![Platform](https://img.shields.io/cocoapods/p/CCZoomTransition.svg?style=flat)  
